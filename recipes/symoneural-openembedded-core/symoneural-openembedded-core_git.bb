@@ -1,3 +1,7 @@
+# SPDX-License-Identifier: MIT
+# Copyright 2026 SymonSaysLLC
+# SyMoNeuRaL build metadata. MIT so it combines freely with the copyleft it builds;
+# what this recipe BUILDS keeps its own licence, declared in LICENSE below.
 # Recipe created by recipetool, then CURATED for SyMoNeuRaL.
 # LICENSE / LIC_FILES_CHKSUM / PV verified against the pinned upstream source tree.
 # SRCREV and SRC_URI are the acquisition pins - do not change without re-verifying.
