@@ -24,8 +24,11 @@ a SymonSayDistribute release.** Separation is what makes that checkable rather t
 | the licence each one declares | upstream source — that is tracked in `SymonSaySource` |
 | what we use it for, and whether the output ships | weights, in any format or size |
 
-A recipe on this repository is still our own work under FSL-1.1-ALv2. What is copyleft is the
-thing it builds, and that is exactly the distinction the split records.
+A recipe here is our own work, licensed **MIT** — not the distribution's FSL-1.1-ALv2. These
+recipes exist to combine with copyleft software, and a proprietary licence on metadata whose
+purpose is that combination creates a question at every use. What each recipe BUILDS keeps its
+own licence, which is recorded per recipe and is the whole reason these are kept apart. See
+`NOTICE.md`.
 
 ## How it is laid out
 
@@ -40,7 +43,7 @@ thing it builds, and that is exactly the distinction the split records.
 |---|---|---|
 | `SymonSayDistribute` | the runtimes, one branch each, each cutting releases | FSL-1.1-ALv2, no copyleft |
 | `SymonSaySource` | what we build from: pins, licences, provenance | tracking only, ships nothing |
-| `SymonSayOpen` | the copyleft builds | copyleft, and never linked into a release |
+| `SymonSayOpen` | the copyleft builds | MIT metadata; the outputs stay copyleft and never link into a release |
 
 The same three directories exist on the build host, so the separation is visible before
 anyone opens a file.
