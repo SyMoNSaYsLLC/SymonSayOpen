@@ -1,3 +1,7 @@
+# SPDX-License-Identifier: MIT
+# Copyright 2026 SymonSaysLLC
+# SyMoNeuRaL build metadata. MIT so it combines freely with the copyleft it builds;
+# what this recipe BUILDS keeps its own licence, declared in LICENSE below.
 # Shared by the two symoneural-nvidia-open-kernel* recipes: ONE pinned NVIDIA source tree, TWO
 # kernel targets (docs/platform/NVIDIA-OPEN-KERNEL.md). Each target has its own recipe, build
 # directory, kernel inputs, staging root and package identity; only the source and these

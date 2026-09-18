@@ -1,3 +1,7 @@
+# SPDX-License-Identifier: MIT
+# Copyright 2026 SymonSaysLLC
+# SyMoNeuRaL build metadata. MIT so it combines freely with the copyleft it builds;
+# what this recipe BUILDS keeps its own licence, declared in LICENSE below.
 # Debian 13 (trixie) kernel ABI 6.12.107+deb13-amd64: the exact header / kbuild closure an external
 # module build against that kernel needs, plus the signed kernel image for the staged-install
 # proof. Every input is fetched by the SHA256 the trixie/main index publishes (index sha256

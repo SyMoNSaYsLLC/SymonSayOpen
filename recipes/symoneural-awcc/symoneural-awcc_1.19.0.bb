@@ -1,3 +1,7 @@
+# SPDX-License-Identifier: MIT
+# Copyright 2026 SymonSaysLLC
+# SyMoNeuRaL build metadata. MIT so it combines freely with the copyleft it builds;
+# what this recipe BUILDS keeps its own licence, declared in LICENSE below.
 # AWCC 1.19.0 - the unofficial Alienware Command Center for Linux (Alienware / Dell G series:
 # thermal and fan modes, G-mode, lighting; daemon + CLI + ImGui GUI). GPL-3.0. Approved by Garrett
 # on 2026-09-14 as a SEPARATE GPL-3.0 EXECUTABLE in the Platform runtime: its own package and

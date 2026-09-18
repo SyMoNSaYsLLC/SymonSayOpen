@@ -1,3 +1,7 @@
+# SPDX-License-Identifier: MIT
+# Copyright 2026 SymonSaysLLC
+# SyMoNeuRaL build metadata. MIT so it combines freely with the copyleft it builds;
+# what this recipe BUILDS keeps its own licence, declared in LICENSE below.
 # DEBIAN TARGET (A): NVIDIA open GPU kernel modules for the development machine's kernel ABI
 # 6.12.107+deb13-amd64 (Debian 13, an EXTERNAL kernel in this profile), built from the same
 # pinned tree as the estate target, against the pinned Debian kernel inputs staged by

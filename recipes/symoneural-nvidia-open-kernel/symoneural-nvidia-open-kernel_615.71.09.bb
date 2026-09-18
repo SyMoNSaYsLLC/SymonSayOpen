@@ -1,3 +1,7 @@
+# SPDX-License-Identifier: MIT
+# Copyright 2026 SymonSaysLLC
+# SyMoNeuRaL build metadata. MIT so it combines freely with the copyleft it builds;
+# what this recipe BUILDS keeps its own licence, declared in LICENSE below.
 # ESTATE TARGET (B): NVIDIA open GPU kernel modules for the kernel the estate builds itself -
 # virtual/kernel of the Symoneural-Platform estate build directory (linux-yocto, charter 6.18.48,
 # qemux86-64), through OE's own external-module path (module.bbclass: cross toolchain, shared
