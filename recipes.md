@@ -1,0 +1,29 @@
+# recipes-build — copyleft builds
+
+2 recipes in this group whose output carries a copyleft licence.
+
+The recipes are our own work under FSL-1.1-ALv2. What is copyleft is what they build,
+and that distinction is the reason this repository exists: none of these outputs may be
+linked into a SymonSayDistribute release.
+
+| Recipe | Declares | Directory |
+|---|---|---|
+| `symoneural-bitbake` | `GPL-2.0-only AND MIT` | `symoneural-bitbake` |
+| `symoneural-openembedded-core` | `MIT AND GPL-2.0-only` | `symoneural-openembedded-core` |
+
+## Licences declared in this group
+
+| Licence | Recipes |
+|---|---|
+| `GPL-2.0-only AND MIT` | 1 |
+| `MIT AND GPL-2.0-only` | 1 |
+
+## Before adding one here
+
+Say what the output is used for. A build-time dependency and a component linked into a
+shipped artifact are different answers, and only the first is allowed anywhere in this
+estate. If it would be linked in, the answer is a permissive replacement or dropping the
+feature — not this repository.
+
+Upstream source is not carried here; it is tracked in `SymonSaySource`. The index of
+groups is on `main`.
