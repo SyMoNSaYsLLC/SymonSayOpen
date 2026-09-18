@@ -55,3 +55,29 @@ anyone opens a file.
    linked into a shipped artifact" are different answers and only one of them is allowed.
 3. If it would be linked into a runtime, it does not go here — it does not go anywhere. The
    answer is a permissive replacement or dropping the feature.
+
+## The licence boundary
+
+These four trees carry **two** licences between them, and that is the point of the split:
+
+| Licence | Where | Why there |
+|---|---|---|
+| `FSL-1.1-ALv2` | `SymonSayDistribute` | the product: source-available now, Apache-2.0 two years after each release |
+| `MIT` | `SymonSayOSS`, `SymonSayOpen`, `SymonSaySource` | work meant to combine freely — with copyleft, with anyone's code, with itself |
+
+Two rules follow, and they are not the same rule:
+
+**A licence deviation inside a tree is a new branch.** If one component in a tree cannot carry
+that tree's licence — an upstream obligation, a contributed file with its own terms — it gets
+its own branch, and that branch states the licence at the top of its document. A tree stays
+readable because every branch in it either carries the tree's licence or says plainly that it
+does not.
+
+**A genuinely third licence is a new tree.** If something needs terms that are neither of the
+two above — a copyleft obligation on our own code, a third-party commercial licence, an
+agreement with its own conditions — it does not go on a branch here. It becomes its own
+repository at `/mnt/<repo>`, with its own index, because a tree whose licence you cannot state
+in one line is a tree nobody can ship from.
+
+Anything that fits none of the four is raised rather than guessed at, and work continues around
+it instead of stopping on it.
