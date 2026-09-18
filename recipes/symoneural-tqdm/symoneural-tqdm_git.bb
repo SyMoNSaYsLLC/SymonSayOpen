@@ -1,3 +1,7 @@
+# SPDX-License-Identifier: MIT
+# Copyright 2026 SymonSaysLLC
+# SyMoNeuRaL build metadata. MIT so it combines freely with the copyleft it builds;
+# what this recipe BUILDS keeps its own licence, declared in LICENSE below.
 # tqdm for the SyMoNeuRaL Common runtime
 # A RUNTIME dependency of the Common wheels (huggingface-hub tqdm>=4.42.1; transformers tqdm>=4.60). Acquired 2026-09-14 under the
 # estate rule "own what you ship": layer copies are build tooling at most, never the
