@@ -1,3 +1,7 @@
+# SPDX-License-Identifier: MIT
+# Copyright 2026 SymonSaysLLC
+# SyMoNeuRaL build metadata. MIT so it combines freely with the copyleft it builds;
+# what this recipe BUILDS keeps its own licence, declared in LICENSE below.
 # GStreamer 1.28.7 CORE from the acquired monorepo (subprojects/gstreamer), built with meson
 # against oe-core's glib/libxml2 exactly as oe-core's gstreamer1.0_1.28.7.bb does - same
 # version, same option set, but from the estate's own pinned tree (SYMONEURAL-OWNED ruling for

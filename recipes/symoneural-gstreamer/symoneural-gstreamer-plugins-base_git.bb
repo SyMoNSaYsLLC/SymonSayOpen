@@ -1,3 +1,7 @@
+# SPDX-License-Identifier: MIT
+# Copyright 2026 SymonSaysLLC
+# SyMoNeuRaL build metadata. MIT so it combines freely with the copyleft it builds;
+# what this recipe BUILDS keeps its own licence, declared in LICENSE below.
 # GStreamer 1.28.7 'base' plugins and helper libraries (subprojects/gst-plugins-base of the
 # acquired monorepo) against the estate's own core (symoneural-gstreamer), mirroring oe-core's
 # gstreamer1.0-plugins-base_1.28.7.bb option set with a minimal codec selection for the first pass:

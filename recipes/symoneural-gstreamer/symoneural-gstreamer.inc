@@ -1,3 +1,7 @@
+# SPDX-License-Identifier: MIT
+# Copyright 2026 SymonSaysLLC
+# SyMoNeuRaL build metadata. MIT so it combines freely with the copyleft it builds;
+# what this recipe BUILDS keeps its own licence, declared in LICENSE below.
 # Shared by the symoneural-gstreamer* recipes: ONE pinned GStreamer monorepo (Live runtime), one
 # recipe per subproject (core, plugins-base, ...). Each recipe points meson at its subprojects/<x>
 # directory of the disposable export and takes every dependency from the sysroot
