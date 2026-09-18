@@ -1,3 +1,7 @@
+# SPDX-License-Identifier: MIT
+# Copyright 2026 SymonSaysLLC
+# SyMoNeuRaL build metadata. MIT so it combines freely with the copyleft it builds;
+# what this recipe BUILDS keeps its own licence, declared in LICENSE below.
 # certifi - a RUNTIME dependency of the API wheels (httpx any ...).
 # Acquired 2026-09-13 under the estate rule "own what you ship": the layer copy is
 # build tooling at most, never the shipped provider. Tag 2026.07.22 at the pin below;
