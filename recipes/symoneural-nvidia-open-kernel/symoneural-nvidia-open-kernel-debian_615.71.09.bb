@@ -16,6 +16,10 @@
 # same driver generation, and Conflicts with NVIDIA's DKMS packages that ship same-named modules.
 # UNSIGNED: Secure Boot is on and the host's modules are MOK-signed; no key is read, made or used
 # here. It is never installed on the host by this work (docs/platform/NVIDIA-OPEN-KERNEL.md).
+# Built from the same pinned tree as the estate target, whose recipe declares this.
+# Declared here rather than left to inference: a recipe with no LICENSE cannot be
+# placed, audited or defended.
+LICENSE = "MIT OR GPL-2.0-only"
 require symoneural-nvidia-open-kernel.inc
 SUMMARY = "NVIDIA open GPU kernel modules ${PV} for Debian ${DEB_KABI} (source-built, unsigned, HOST-CONDITIONED)"
 
