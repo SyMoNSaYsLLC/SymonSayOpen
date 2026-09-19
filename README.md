@@ -4,7 +4,7 @@ The copyleft side of the estate, kept apart from the distribution on purpose.
 
 ## Why the separation exists
 
-SyMoNsAyLeaRn ships under FSL-1.1-ALv2: source-available now, Apache-2.0 two years after each
+SyMoNsAyLeaRn ships under SymonSaysLLC Open Source License 1.0: source-available now, Apache-2.0 two years after each
 release. That promise is only keepable if nothing copyleft is linked into what ships, so the
 ship gate fails a release on any strong copyleft component and reviews the weak ones.
 
@@ -24,7 +24,7 @@ a SymonSayDistribute release.** Separation is what makes that checkable rather t
 | the licence each one declares | upstream source — that is tracked in `SymonSaySource` |
 | what we use it for, and whether the output ships | weights, in any format or size |
 
-A recipe here is our own work, licensed **MIT** — not the distribution's FSL-1.1-ALv2. These
+A recipe here is our own work, licensed **SymonSaysLLC Open Source License 1.0** — not the distribution's SymonSaysLLC Open Source License 1.0. These
 recipes exist to combine with copyleft software, and a proprietary licence on metadata whose
 purpose is that combination creates a question at every use. What each recipe BUILDS keeps its
 own licence, which is recorded per recipe and is the whole reason these are kept apart. See
@@ -41,9 +41,9 @@ own licence, which is recorded per recipe and is the whole reason these are kept
 
 | Repository | Holds | Licence of what it ships |
 |---|---|---|
-| `SymonSayDistribute` | the runtimes, one branch each, each cutting releases | FSL-1.1-ALv2, no copyleft |
+| `SymonSayDistribute` | the runtimes, one branch each, each cutting releases | SymonSaysLLC Open Source License 1.0, no copyleft |
 | `SymonSaySource` | what we build from: pins, licences, provenance | tracking only, ships nothing |
-| `SymonSayOpen` | the copyleft builds | MIT metadata; the outputs stay copyleft and never link into a release |
+| `SymonSayOpen` | the copyleft builds | SymonSaysLLC Open Source License 1.0 metadata; the outputs stay copyleft and never link into a release |
 
 The same three directories exist on the build host, so the separation is visible before
 anyone opens a file.
@@ -62,8 +62,8 @@ These four trees carry **two** licences between them, and that is the point of t
 
 | Licence | Where | Why there |
 |---|---|---|
-| `FSL-1.1-ALv2` | `SymonSayDistribute` | the product: source-available now, Apache-2.0 two years after each release |
-| `MIT` | `SymonSayOSS`, `SymonSayOpen`, `SymonSaySource` | work meant to combine freely — with copyleft, with anyone's code, with itself |
+| `SymonSaysLLC Open Source License 1.0` | `SymonSayDistribute` | the product: source-available now, Apache-2.0 two years after each release |
+| `SymonSaysLLC Open Source License 1.0` | `SymonSayOSS`, `SymonSayOpen`, `SymonSaySource` | work meant to combine freely — with copyleft, with anyone's code, with itself |
 
 Two rules follow, and they are not the same rule:
 
