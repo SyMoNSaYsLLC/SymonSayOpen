@@ -9,6 +9,10 @@
 # follow-on enables, each pulling its oe-core library. Per-plugin packaging is oe-core's own include.
 require symoneural-gstreamer.inc
 SUMMARY = "GStreamer 1.0 'base' plugins and helper libraries (Live runtime)"
+# Same COPYING as the core recipe — identical md5 — so the same licence. Declared rather
+# than inherited: a recipe with no LICENSE cannot be placed, audited or defended, and
+# this one had none.
+LICENSE = "LGPL-2.1-or-later"
 LIC_FILES_CHKSUM = "file://subprojects/gst-plugins-base/COPYING;md5=69333daa044cb77e486cc36129f7a770"
 
 DEPENDS = "symoneural-gstreamer glib-2.0 glib-2.0-native iso-codes util-linux zlib"
