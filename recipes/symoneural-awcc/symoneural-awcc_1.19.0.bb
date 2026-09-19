@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: MIT
+# SPDX-License-Identifier: LicenseRef-SymonSaysLLC-OpenSource-1.0
 # Copyright 2026 SymonSaysLLC
 # SyMoNeuRaL build metadata. MIT so it combines freely with the copyleft it builds;
 # what this recipe BUILDS keeps its own licence, declared in LICENSE below.
