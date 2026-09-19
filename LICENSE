@@ -1,21 +1,55 @@
-MIT License
+SymonSaysLLC Open Source License
+Version 1.0
+
+SPDX short identifier: LicenseRef-SymonSaysLLC-OpenSource-1.0
 
 Copyright (c) 2026 SymonSaysLLC
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+## Why this licence is permissive
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+This licence covers work that has to combine with software licensed under copyleft terms —
+GPL, LGPL, MPL and their relatives. A restrictive licence on such work cannot do that job: a
+copyleft licence will not accept additional restrictions, so anything our side adds either
+prevents the combination or has to be argued about at every use.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+So this licence adds nothing. It grants broadly and asks only for attribution, which every
+copyleft licence accepts. What we license here can be combined into a copyleft work without
+conflict, and the combined work takes that work's terms. Software under this licence is not
+where the Licensor's commercial terms live; that is the SymonSaysLLC Proprietary License.
+
+## Grant
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software
+and associated documentation files (the "Software"), to deal in the Software without
+restriction, including without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or
+substantial portions of the Software.
+
+## Combination with copyleft work
+
+For the avoidance of doubt: this licence imposes no condition that conflicts with the GNU
+General Public License, the GNU Lesser General Public License, the Mozilla Public License, or
+any other licence with reciprocal terms. Where software under this licence is combined with
+software under such a licence, the combined work may be distributed under that licence, and
+this licence's only surviving requirement is that the notice above be preserved.
+
+## Trade marks
+
+The trade marks, names and logos of SymonSaysLLC are not licensed here. Nothing above permits
+their use.
+
+## Warranty and liability
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+## Notice to place on a covered work
+
+    Licensed under the SymonSaysLLC Open Source License, Version 1.0.
+    Copyright 2026 SymonSaysLLC.
