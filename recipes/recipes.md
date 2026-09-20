@@ -15,9 +15,16 @@ No environment variable is read here, nothing inside this unit is imported, and
 nothing inside this unit imports it. Stated rather than omitted: an absent interface
 section reads as an oversight, an explicit one is an answer.
 
+## Directories
+
+| Directory | Holds |
+|---|---|
+| [`debian-kernel-inputs`](debian-kernel-inputs/debian-kernel-inputs.md) | build recipes — 1 at generation time |
+| [`symoneural-awcc`](symoneural-awcc/symoneural-awcc.md) | build recipes — 1 at generation time |
+| [`symoneural-nvidia-open-kernel`](symoneural-nvidia-open-kernel/symoneural-nvidia-open-kernel.md) | build recipes — 2 at generation time |
+
 ## Where this leads
 
 Up to [recipes-platform.md](../recipes-platform.md), the map for this unit.
 
-Nothing here calls into another directory of this unit, so the chain ends at this
-document. §3.7 requires that to be said rather than left as a dead end.
+Onward, in the order the code runs: [`debian-kernel-inputs`](debian-kernel-inputs/debian-kernel-inputs.md), [`symoneural-awcc`](symoneural-awcc/symoneural-awcc.md), [`symoneural-nvidia-open-kernel`](symoneural-nvidia-open-kernel/symoneural-nvidia-open-kernel.md).
